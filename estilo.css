@@ -1,0 +1,90 @@
+body{
+    margin: 0%;
+    display: flex;
+}
+
+.menu_vertical{
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+    height: 65%;
+    left: 0;
+    width: 80px;
+    background-color: #222;
+    border-radius:0px 0px 40px 0px; 
+    margin: 0px;
+    overflow: hidden;
+    transition: width .75s ease;
+    list-style: none;  
+
+}
+
+.menu_vertical:hover{
+    width: 220px;
+}
+
+.lista_total{
+    margin-top: 90px;
+    text-decoration: none;
+}
+
+.estilo{
+    margin:14px;
+    padding-top: 10px;
+}
+
+.estilo:hover{
+    border-radius: 9px 9px 9px 9px;
+    opacity: 0.5;
+    background-color:#808080;
+}
+
+.icone{
+    margin-left: 13px;
+    position: fixed;
+    font-size: 30px;
+    color:#fff;
+}
+
+.lista{
+    position: relative;
+    display: block;
+    margin-left: 100px;
+    font-size: 19px;
+    color: #fff;
+    padding-top: 10px;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr{
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 13px;
+    color: #fff;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+a:visited {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #131313;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #a55eff;
+    border-radius: 10px;
+    width: 10px;
+}
